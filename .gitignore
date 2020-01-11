@@ -1,0 +1,17 @@
+# CMake
+build/
+xcuserdata
+cmake-build-debug/
+Testing/
+
+# IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Leetcode generated
+tmp/
