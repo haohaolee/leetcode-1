@@ -1,7 +1,6 @@
 # Leetcode #
 
 [![Build Status](https://travis-ci.org/adsk-shanghai/leetcode.svg?branch=master)](https://travis-ci.org/adsk-shanghai/leetcode)
-[![Build status](https://ci.appveyor.com/api/projects/status/?svg=true)](https://ci.appveyor.com/project/adsk-shanghai/leetcode)
 
 C++ solutions and unit tests for [LeetCode](https://leetcode.com/).
 
