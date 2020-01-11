@@ -31,11 +31,11 @@ addons:
     - clang-3.7
     - valgrind
 os:
-  - linux
+#  - linux
   - osx
 language: cpp
 compiler:
-  - gcc
+#  - gcc
   - clang
 script: ./travis.sh
 env:
