@@ -3,7 +3,7 @@ all: build
 prepare:
 	@echo "===> Generating CMake files for building..."
 	@test -s build || mkdir build
-	@cmake -B ./build
+	@cmake -B ./build .
 
 clean:
 	@echo "===> Cleaning temporary build files..."
