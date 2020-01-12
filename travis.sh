@@ -2,4 +2,4 @@
 set -evx
 env | sort
 
-make
+make test
