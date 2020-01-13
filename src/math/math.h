@@ -8,6 +8,44 @@ namespace math {
 
 /*
  *
+ * [223] Rectangle Area
+ *
+ * https://leetcode.com/problems/rectangle-area/description/
+ *
+ * algorithms
+ * Medium (36.80%)
+ * Likes:    320
+ * Dislikes: 604
+ * Total Accepted:    97.7K
+ * Total Submissions: 264.9K
+ * Testcase Example:  '-3\n0\n3\n4\n0\n-1\n9\n2'
+ *
+ * Find the total area covered by two rectilinear rectangles in a 2D plane.
+ * 
+ * Each rectangle is defined by its bottom left corner and top right corner as
+ * shown in the figure.
+ * 
+ * 
+ * 
+ * Example:
+ * 
+ * 
+ * Input: A = -3, B = 0, C = 3, D = 4, E = 0, F = -1, G = 9, H = 2
+ * Output: 45
+ * 
+ * Note:
+ * 
+ * Assume that the total area is never beyond the maximum possible value of
+ * int.
+ *
+*/
+class RectangleArea {
+public:
+  int Compute(int A, int B, int C, int D, int E, int F, int G, int H);
+};
+
+/*
+ *
  * [836] Rectangle Overlap
  *
  * https://leetcode.com/problems/rectangle-overlap/description/
@@ -49,9 +87,9 @@ namespace math {
  * 
  * Both rectangles rec1 and rec2 are lists of 4 integers.
  * All coordinates in rectangles will be between -10^9 and 10^9.
- * 
- * 
- */
+ *
+ *
+*/
 class RectangleOverlap {
 public:
   bool IsOverlap(std::vector<int>& rec1, std::vector<int>& rec2);
